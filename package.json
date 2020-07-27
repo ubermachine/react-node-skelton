@@ -26,6 +26,7 @@
   },
   "dependencies": {
     "@babel/core": "^7.10.5",
+    "@hot-loader/react-dom": "^16.13.0",
     "body-parser": "^1.19.0",
     "compression": "^1.7.4",
     "cookie-parser": "^1.4.5",
@@ -34,16 +35,15 @@
     "express-jwt": "^6.0.0",
     "helmet": "^3.23.3",
     "jsonwebtoken": "^8.5.1",
-    "lodash": "^4.17.19",
     "mongodb": "3.5.5",
-    "mongoose": "^5.9.25"
+    "mongoose": "^5.9.25",
+    "react-hot-loader": "^4.12.21"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.10.4",
     "@babel/preset-react": "^7.10.4",
     "babel-loader": "^8.1.0",
     "nodemon": "2.0.2",
-    "parcel-bundler": "^1.12.4",
     "webpack": "4.42.1",
     "webpack-cli": "3.3.11",
     "webpack-dev-middleware": "3.7.2",
