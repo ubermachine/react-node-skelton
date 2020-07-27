@@ -16,8 +16,7 @@ const CURRENT_WORKING_DIR = process.cwd();
 const app = express();
 //comment out before building for production
 devBundle.compile(app);
-
-app.use('/dist', express.static(path.join(CURRENT_WORKING_DIR, 'dist')))
+app.user("/dist", express.static(path.join(CURRENT_WORKING_DIR, "dist")));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(cookieParser());

@@ -35,6 +35,7 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "express-jwt": "^6.0.0",
+    "file-loader": "^6.0.0",
     "helmet": "^3.23.3",
     "jsonwebtoken": "^8.5.1",
     "mongodb": "3.5.5",
@@ -43,7 +44,8 @@
     "react-dom": "^16.13.1",
     "react-hot-loader": "^4.12.21",
     "react-router": "^5.2.0",
-    "react-router-dom": "^5.2.0"
+    "react-router-dom": "^5.2.0",
+    "webpack-hot-middleware": "^2.25.0"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.10.4",
